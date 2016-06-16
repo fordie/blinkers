@@ -1,0 +1,19 @@
+.comp-sport{
+	display: none !important;
+}
+
+a[href*="sport"]{
+	display: none !important;
+}
+
+a[href*="sport"] + * {
+	display: none !important;
+}
+
+h2[data-entityid="strapline#euro_2016"]{
+	display: none !important;
+}
+
+h2[data-entityid="strapline#euro_2016"] + div{
+	display: none !important;
+}
